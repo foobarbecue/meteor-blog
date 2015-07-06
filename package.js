@@ -20,7 +20,8 @@ Package.onUse(function(api) {
     'underscore',
     'aslagle:reactive-table@0.5.5',
     'lovetostrike:shareit@0.4.1',
-    'gfk:notifications@1.0.11'
+    'gfk:notifications@1.0.11',
+    'miro':'preloader@1.2.4',
   ], 'client');
 
   // FILES FOR CLIENT

@@ -97,6 +97,8 @@ Router.route '/blog/:slug',
     Post.first slug: @params.slug
 
 # BLOG ADMIN INDEX
+AdminController = PreloadController.extend 'preload'
+  'sync': '
 
 Router.route '/admin/blog',
   name: 'blogAdmin'
