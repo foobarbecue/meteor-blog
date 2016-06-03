@@ -169,9 +169,9 @@ Meteor.startup ->
   routes.push
     path: basePath or '/' # ...but ensure we don't have a route path of ''
     name: 'blogIndex'
-    fastRender: ->
-      @subscribe 'blog.authors'
-      @subscribe 'blog.posts'
+#    fastRender: ->
+#      @subscribe 'blog.authors'
+#      @subscribe 'blog.posts'
 
   # BLOG TAG
 
